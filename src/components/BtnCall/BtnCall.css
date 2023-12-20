@@ -1,0 +1,34 @@
+.btnCall {
+    cursor: pointer;
+    padding: 10px 20px;
+    font-family: 'Roboto', sans-serif;
+    font-weight: bold;
+    font-size: 22px;
+    width: 150px;
+    height: 50px;
+    border-radius: 10px;
+    transform: scale(1);
+    transition: all 0.3s;
+    border: none;
+}
+
+.btnDog {
+    background-color: red;
+}
+
+.btnCat {
+    background-color: blue;
+}
+
+.btnDuck {
+    background-color: purple;
+}
+
+.btnFox {
+    background-color: orange;
+}
+
+.btnCall:hover {
+    transform: scale(1.1);
+    background-color: #ffffff;
+}
