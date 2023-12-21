@@ -76,3 +76,18 @@
     width: 100%;
     max-height: 300px;
 }
+
+@media (max-width: 575.98px) { 
+    .app h1 {
+        font-size: 1.8rem;
+    }
+
+    .boxModal {
+        width: 300px;
+        padding: 30px;
+    }
+
+    .boxModal h2 {
+        margin-top: 30px;
+    }
+}
